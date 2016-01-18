@@ -12,6 +12,7 @@ html {
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
 	font-family:sans-serif;
+
 }
 
 *, *:before, *:after {
@@ -20,7 +21,7 @@ html {
 
 .btn{
 	background-color: #E0F2F3;
-	color: #1E87AB;
+	color: white;
 	font-weight: bold;
 	text-decoration: none;
 	padding: 0.5em 1em;
@@ -28,13 +29,16 @@ html {
 	display: inline-block;
 	margin: 0.5em;
 	font-size: 2em;
+	background-image: linear-gradient(to right, #E040FB, #00BCD4);
 }
 
 .btn:hover,
 .btn:active,
 .btn:focus{
-	background-color: #aaa;
+	color: #425152;
 	text-transform: uppercase;
+	background-image: linear-gradient(to bottom right, #E1BEE7, #B2EBF2);
+
 };
 
 .btn i{
