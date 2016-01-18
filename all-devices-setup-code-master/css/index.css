@@ -19,23 +19,26 @@ html {
 }
 
 .btn{
-	background-color: #ccc;
-	color:#74D8F9;
-	font-weight:bold;
+	background-color: #E0F2F3;
+	color: #1E87AB;
+	font-weight: bold;
 	text-decoration: none;
-	padding: .5em 1em;
+	padding: 0.5em 1em;
 	border-radius: 5px;
-	display: inline;
-	margin:.5em;
+	display: inline-block;
+	margin: 0.5em;
+	font-size: 2em;
 }
 
 .btn:hover,
 .btn:active,
 .btn:focus{
 	background-color: #aaa;
+	text-transform: uppercase;
 };
 
 .btn i{
 	vertical-align: middle;
 	padding-right: 3em;
 }
+
